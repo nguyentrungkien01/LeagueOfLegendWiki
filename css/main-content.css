@@ -1,0 +1,419 @@
+section .content {
+    overflow: hidden;
+
+}
+
+
+/*      Welcome     */
+.content-left {
+    float: left;
+    width: 70%;
+
+}
+
+.content-left .welcome {
+    margin-top: 3%;
+    background-color: rgb(6, 14, 31);
+    padding: 5% 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.content-left .welcome p:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+.content-left .welcome p a {
+    color: royalblue;
+}
+
+.content-left .welcome p a:hover {
+    text-decoration: underline;
+}
+
+/*====================================*/
+
+/*  content box     */
+.content-box {
+    background-color: rgb(6, 14, 31);
+}
+
+.content-box .title {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(9, 41, 73);
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2% 0;
+    text-transform: capitalize;
+}
+
+.content-box .image-table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 5%;
+    align-items: center;
+
+}
+
+.content-box .image-table .cell {
+    margin-left: 0.6%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.content-box .image-table .image img {
+    width: 145px;
+    height: 110px;
+    border: solid #66FFFF 1px;
+}
+
+.content-box:nth-child(3) .image-table .image img {
+    width: 120px;
+}
+
+.content-box .image-table .image img:hover {
+    opacity: 0.8;
+}
+
+.content-box .image-table .caption a {
+    color: white;
+    font-size: 0.9em;
+    color: #6699CC;
+}
+
+.content-box .image-table .caption a:hover {
+    text-decoration: underline;
+}
+
+/*================================================*/
+
+/*      Roster        */
+.roster-content {
+    width: 100%;
+}
+
+/*  roster header   */
+.roster-content .title {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(9, 41, 73);
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2% 0;
+    text-transform: capitalize;
+}
+
+.inBox {
+    width: 100%;
+    background-color: rgb(6, 14, 31);
+    padding: 2% 0;
+    color: #FFCC66;
+}
+
+.roster-content .headChoice {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#headChoice-champions {
+    width: 40%;
+    text-align: right;
+    padding: 1%;
+    background-color: rgb(6, 30, 54);
+}
+
+#headChoice-item {
+    width: 40%;
+    padding: 1%;
+    margin-left: 0.5%;
+    background-color: rgb(6, 30, 54);
+}
+
+#headChoice-champions:hover span,
+#headChoice-item:hover span {
+    color: white;
+    padding: 1%;
+}
+
+/*  roster selection   */
+.sub-choice-champions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.sub-choice-champions select,
+.sub-choice-champions input,
+.sub-choice-items select,
+.sub-choice-items input {
+    background-color: rgb(6, 30, 54);
+    color: lightblue;
+    border-radius: 3%;
+}
+
+.sub-choice-champions input::placeholder,
+.sub-choice-items input::placeholder {
+    color: lightblue;
+}
+
+.sub-choice-champions input,
+.sub-choice-items input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.sub-choice-champions select:focus,
+.sub-choice-items select:focus,
+.sub-choice-champions input:focus,
+.sub-choice-items input:focus {
+    background-color: #006666;
+}
+
+.sub-choice-items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 9.5%;
+    margin-top: 1%;
+}
+
+/*  list images */
+/*  champions   */
+.roster-content #image-list-champions table {
+    margin: 2% auto;
+}
+
+.roster-content #image-list-champions table tr:nth-child(3):first-child img {
+    margin-left: 90%;
+
+}
+
+.roster-content #image-list-champions table tr td img:hover {
+    transform: scale(1.2);
+}
+
+#headChoice-champions span {
+    background-color: #699FF6;
+    color: white;
+    padding: 1%;
+}
+
+/*  items   */
+
+.roster-content .image-typeItems {
+    display: flex;
+    justify-content: center;
+}
+
+.roster-content .sub-choice-items,
+.roster-content #image-list-items {
+    display: none;
+}
+
+.roster-content .title-typeItems {
+    text-align: center;
+    color: white;
+    margin: 1% 0%;
+}
+
+.roster-content .title-typeItems:first-child {
+    margin-top: 2%;
+}
+
+.roster-content .title-typeItems hr {
+    width: 10%;
+    border-bottom: solid lightblue 1px;
+    animation: none;
+}
+
+.roster-content .image-list-items table tr td img:hover {
+    transform: scale(1.2);
+}
+
+/*  sub area    */
+.subArea {
+    position: fixed;
+    display: none;
+    cursor: context-menu;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    animation-name: aniBorderSubArea;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes aniBorderSubArea {
+    0% {
+        border-top: 3px #33FFFF solid;
+        border-right: 3px #FF99FF solid;
+        border-bottom: 3px #66FF00 solid;
+        border-left: 3px #9933FF solid;
+    }
+
+    33% {
+        border-right: 3px #33FFFF solid;
+        border-bottom: 3px #FF99FF solid;
+        border-left: 3px #66FF00 solid;
+        border-top: 3px #9933FF solid;
+    }
+
+    66% {
+        border-bottom: 3px #33FFFF solid;
+        border-left: 3px #FF99FF solid;
+        border-top: 3px #66FF00 solid;
+        border-right: 3px #9933FF solid;
+    }
+
+    100% {
+        border-left: 3px #33FFFF solid;
+        border-top: 3px #FF99FF solid;
+        border-right: 3px #66FF00 solid;
+        border-bottom: 3px #9933FF solid;
+    }
+}
+
+#subBox {
+    display: none;
+}
+
+.subArea img {
+    width: 100%;
+}
+
+.subAreaItems {
+    width: 22%;
+}
+
+.subAreaChampions {
+    width: 40%;
+}
+
+.subAreaNewestSkins {
+    width: 50%;
+}
+
+.subAreaCurrentSale {
+    width: 50%;
+}
+
+.subAreaRunePathTab {
+    width: 38%;
+}
+
+.subAreaRuneShards {
+    width: 45%;
+}
+
+.subAreaSpells {
+    width: 35%;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .sec-con-header .sec-con-header-buttons li a {
+        font-size: 0.8em;
+    }
+
+    ul.sec-con-header-buttons li.sec-buttons {
+        font-size: 0.8em;
+    }
+
+    ul.sec-con-header-buttons li.sec-buttons ul.sub-menu {
+        top: 60%;
+    }
+
+    ul.sec-con-header-buttons li.sec-buttons:nth-child(3) ul.sub-menu {
+        top: 50%;
+    }
+
+    ul.sec-con-header-buttons li.sec-buttons:nth-child(4) ul.sub-menu {
+        top: 50%;
+        width: 200%;
+    }
+
+    .sec-con-header-page span {
+        font-size: 0.8em;
+    }
+
+    .share span {
+        font-size: 0.6em;
+    }
+
+    .section-bg {
+        background-image: none;
+    }
+
+    .section-content {
+        width: 100%
+    }
+
+    .sec-con-header .sec-con-header-logo {
+        font-size: 1.8rem;
+    }
+
+    .section-content .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-content .content .content-left,
+    .section-content .content .content-right {
+        width: 100%;
+    }
+
+    .section-content .lang {
+        visibility: hidden;
+        font-size: 0.5em;
+    }
+
+    .subAreaItems {
+        width: 60%;
+    }
+
+    .subAreaChampions {
+        width: 60%;
+    }
+
+    .subAreaNewestSkins {
+        width: 60%;
+    }
+
+    .subAreaCurrentSale {
+        width: 60%;
+    }
+
+    .poro {
+        margin-left: 30%;
+    }
+
+    .fanFeed {
+        width: 100%;
+    }
+
+    .fanFeed .content {
+        display: flex;
+        flex-direction: column;
+        flex-flow: row;
+    }
+}

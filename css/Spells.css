@@ -1,0 +1,365 @@
+p img {
+    vertical-align: middle;
+}
+
+/*  Head intro  */
+.content-left .headIntro {
+    margin-top: 2%;
+    font-size: 0.9em;
+}
+
+.content-left .headIntro p {
+    text-indent: 2%;
+    margin-top: 2%;
+}
+
+.content-left .headIntro .imgArea {
+    float: right;
+    border: solid 1px #CC9966;
+}
+
+.content-left .headIntro .imgArea p {
+    text-align: center;
+}
+
+.content-left .headIntro .imgArea p img {
+    vertical-align: middle;
+}
+
+.content-left .headIntro a {
+    color: #66CCFF;
+    font-size: 0.9em;
+}
+
+.content-left .headIntro a:hover {
+    color: #FF6699;
+}
+
+.content-left .headIntro .imgArea+p {
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 2%;
+    font-style: italic;
+}
+
+.content-left .headIntro p.cntBtn {
+    width: 18%;
+    border: 1px solid #66CCFF;
+    padding: 1%;
+    margin: 2% 0 7% 3%;
+    border-radius: 5%;
+}
+
+/*  Available summoner spell    */
+.AvaSummonerSpell p:not(.subTitle) {
+    font-size: 0.9em;
+}
+
+.standardSpell {
+    width: 80%;
+}
+
+.standardSpell tr td {
+    width: 17%;
+    border-bottom: 1px solid #336666;
+}
+
+.standardSpell tr:last-child td {
+    padding-top: 2%
+}
+
+.AvaSummonerSpell img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #66FFCC;
+}
+
+.AvaSummonerSpell .standardSpell a,
+.AvaSummonerSpell .UpSpell a {
+    display: block;
+    text-align: center;
+    padding: 1% 0;
+    color: #99FFFF;
+    font-size: 0.8em;
+}
+
+.AvaSummonerSpell a:hover {
+    color: red;
+}
+
+.UpSpell tr td,
+.UpSpell tr th {
+    border-bottom: 1px solid #336666;
+}
+
+.UpSpell tr th {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5% 0 3% 0;
+    background-color: #111111;
+}
+
+.UpSpell tr td {
+    background-color: #000033;
+    padding: 5% 0
+}
+
+.vdeDiscrip {
+    margin: 6% 0;
+}
+
+.vdeDiscrip iframe {
+    float: right;
+    display: block;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #66CCFF;
+    border-radius: 2%;
+}
+
+.vdeDiscrip iframe:last-child {
+    margin-top: 5%;
+}
+
+/*      Reduced cooldown        */
+.reduceCooldown p:not(.subTitle) {
+    font-size: 0.9em;
+}
+
+.reduceCooldown p a {
+    color: aqua
+}
+
+.reduceCooldown ul {
+    margin: 1% 0 2% 5%;
+    list-style-type: square;
+}
+
+.reduceCooldown ul li a {
+    padding-left: 1%;
+    color: #66CCFF
+}
+
+.reduceCooldown table {
+    width: 97%;
+    margin: 2% auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.reduceCooldown table tr th {
+    padding: 1%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.reduceCooldown table tr td {
+    padding: 1%;
+    font-size: 0.9em;
+}
+
+.reduceCooldown table tr:first-child,
+.reduceCooldown table tr:nth-child(2),
+.reduceCooldown table tr:nth-child(3),
+.reduceCooldown table tr td.Na,
+.reduceCooldown table tr td:first-child {
+    background-color: #000000;
+}
+
+.reduceCooldown table td:not(:first-child) {
+    width: 10%;
+}
+
+.reduceCooldown table img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.reduceCooldown a {
+    font-size: 0.9em;
+}
+
+/*      Spell-related runes     */
+.spellRelaRunes .box {
+    display: flex;
+}
+
+.spellRelaRunes ul {
+    width: 30%;
+    margin: 2% 0 2% 10%;
+    list-style-type: square;
+}
+
+.spellRelaRunes ul li img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.spellRelaRunes ul li a {
+    font-size: 0.9em;
+    padding-left: 2%;
+    color: #66CCFF
+}
+
+.spellRelaRunes a:hover {
+    color: #FF6666
+}
+
+/*      Feature game mode summoner spell    */
+.featureGMode p:not(.subTitle) {
+    font-size: 0.9em;
+    margin-left: 2%;
+
+}
+
+.featureGMode a {
+    color: #99FFFF
+}
+
+.featureGMode a:hover {
+    color: red
+}
+
+.featureGMode div {
+    display: flex;
+    width: 70%;
+    margin: 2% auto;
+    justify-content: space-evenly;
+}
+
+.featureGMode figure {
+    width: 20%;
+}
+
+.featureGMode figcaption {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.featureGMode img {
+    width: 90%;
+    border: 1px solid #66FFFF;
+}
+
+/*  Removed spell   */
+.removeSpell li {
+    font-size: 0.9em;
+    margin-left: 2%;
+}
+
+.removeSpell table {
+    width: 60%;
+    margin: 2% auto;
+}
+
+.removeSpell table tr td figure {
+    width: 100px;
+    text-align: center;
+    height: 120px;
+}
+
+.removeSpell img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #66FFFF;
+}
+
+.removeSpell a {
+    color: #66CCFF;
+}
+
+.removeSpell a:hover {
+    color: red
+}
+/*      Trivia      */
+.trivia ul li{
+    font-size: 0.9em;
+}
+.trivia figure{
+    margin-top: 2%;
+    float: right;
+}
+.trivia ul.fListTri{
+    margin-top: 2%;
+    margin-left: 3%;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.trivia ul.fListTri a{
+    color: #00FFFF
+}
+.trivia ul.fListTri a:hover{
+    color:#FF6666
+}
+.trivia ul img{
+    vertical-align: middle;
+}
+.trivia figure{
+    border: 1px solid tan;
+}
+.trivia figure figcaption{
+    font-size: 0.8em;
+    color: lightgray;
+    background-color: black;
+    text-align: center;
+}
+.trivia ul.fListTri ul{
+    list-style-type: square;
+    margin-left: 5%;
+}
+.trivia table{
+    width: 100%;
+    margin: 2% auto;
+    border:  1px solid #66CCFF;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.trivia table td{
+    border: 1px solid #66CCFF;
+    text-align: center;
+    padding: 2%;
+    vertical-align: middle;
+    background-color: #000033;
+}
+.trivia table ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trivia table a{
+    font-size: 0.9em;
+    color: #66FFCC;
+}
+.trivia table td:first-child{
+    background-color: #002200;
+}
+.trivia table a:hover{
+    color: red;
+}
+.trivia table ul li{
+    padding: 1%;
+}
+.trivia table img{
+    width: 20px;
+    height: 20px;
+}
+#subTable{
+    width: 70%;
+   border: 1px solid #CC9966;
+   margin: 0 auto;
+   text-align: center;
+   padding: 1%;
+   background-color:#111111;
+   font-weight: bold;
+   margin-bottom:4%;
+   margin-top: 4%;
+   display: none;
+}
+#btnShow{
+    color:greenyellow
+}
+

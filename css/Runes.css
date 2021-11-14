@@ -1,0 +1,659 @@
+
+
+/*   Head introduction   */
+.content-left .introCnt .headIntro {
+    margin: 2%;
+    padding-left: 15%;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.content-left .introBox {
+    font-size: 0.9em;
+    text-indent: 2%;
+}
+
+.content-left .introCnt img {
+    display: block;
+    float: right;
+}
+
+.introBox a {
+    color: #00CCFF
+}
+
+.introBox a:hover {
+    color: #FFFF99
+}
+
+.introBox .btnIntro {
+    margin: 2%;
+    border: solid 1px #99FF99;
+    width: 20%;
+    padding: 1% 2%;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.introBox .btnIntro a {
+    color: #CC99FF
+}
+
+/*  Lore    */
+.lore {
+    clear: both;
+}
+
+.lore img.sp_img {
+    width: 100%;
+}
+
+.lore .loreBox p {
+    font-size: 0.9em;
+    text-indent: 2%;
+}
+
+.lore .loreBox p:last-child {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.lore .loreBox p:last-child a {
+    color: #00CCFF
+}
+
+.lore .loreBox .runeImg {
+    float: right;
+    width: 30%;
+    border: solid 1px #FF0066;
+    margin-left: 1%;
+    border-radius: 5%;
+}
+
+.runeImg img {
+    width: 100%;
+    height: 70%;
+}
+
+.runeImg p {
+    font-size: 0.9em;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+/*  Rune Path   */
+.runePath ul {
+    list-style-type: square;
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+.runePath table {
+    width: 100%;
+    margin: 2% auto;
+}
+
+.runePath table tr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.runePath tr td {
+    align-items: center;
+    text-align: center;
+}
+
+.runePath tr th,
+.runePath tr td:first-child {
+    background-color: black;
+}
+
+.runePath tr th {
+    padding: 2% 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.runePath tr td {
+    width: 20%;
+}
+
+.runePath table tr:not(:first-child) td {
+    border-top: 1px solid #666666;
+}
+
+.runePath table tr:not(:first-child) td:not(:first-child):not(:nth-child(2)) {
+    border-left: 1px solid #666666;
+}
+
+.runePath table img {
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+
+}
+
+.runePath table tr td:first-child a {
+    font-size: 1.2em;
+    color: #99CCFF;
+    font-weight: bold;
+}
+
+.runePath table tr td:first-child p {
+    font-size: 0.8em;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.runePath table tr:not(:first-child) td:not(:first-child) a {
+    font-size: 0.9em;
+    color: #66CCFF
+}
+
+/*  shard table */
+.runePath .shardsTable img {
+    width: 35px;
+}
+
+.runePath .shardsTable tr td {
+    font-size: 0.9em;
+}
+
+.runePath .shardsTable tr td:first-child {
+    font-size: 1.2em;
+}
+
+.runePath .shardsTable tr tf:first-child,
+.runePath .shardsTable tr td:nth-child(3) {
+    width: 20%;
+}
+
+.runePath .shardsTable tr td:nth-child(2),
+.runePath .shardsTable tr td:last-child {
+    width: 30%;
+}
+
+.shardsTable .goldStyle {
+    color: #FF9900;
+}
+
+.shardsTable .greenStyle {
+    color: greenyellow
+}
+
+.shardsTable .pinkStyle {
+    color: palevioletred
+}
+
+.shardsTable .orangeStyle {
+    color: #F33;
+}
+
+.shardsTable .yellowStyle {
+    color: #FFFF00
+}
+
+.shardsTable .brownStyle {
+    color: #CC0000
+}
+
+.shardsTable .bonus {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.shardsTable a {
+    text-decoration: underline #99FF99;
+}
+
+.shardsTable tr:not(:first-child) td:not(:first-child) {
+    background-color: #023;
+}
+
+.runePath ul li img {
+    width: 4%;
+    vertical-align: bottom;
+
+}
+
+.runePath ul li {
+    padding: 0.3%;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.runePath ul {
+    margin-top: 1%;
+}
+
+.runePath ul li a {
+    color: #00CCFF
+}
+
+.runePath p:last-child {
+    margin-bottom: 5%;
+}
+
+/*  Rune Page   */
+.runePages .imgRunPage {
+    float: right;
+}
+
+.runePages p:not(.subTitle) {
+    text-indent: 2%;
+    margin: 2% 0;
+    font-size: 0.9em;
+}
+
+.runePages p a {
+    color: #99FF99
+}
+
+.runePages table {
+    width: 97%;
+    margin: 4% auto
+}
+
+.runePages table tr td {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+
+}
+
+.runePages table tr td img {
+    width: 100%;
+    height: 250px;
+}
+
+table tr td .layerRunePage {
+    position: absolute;
+    top: 80%;
+    padding-top: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.9979342078628326) 62%, rgba(5, 3, 38, 0.9279061966583508) 69%, rgba(14, 143, 170, 0.0959734235491071) 100%);
+    transition: ease 1s;
+}
+
+table tr td .layerRunePage p {
+    height: 50px;
+    font-size: 0.9em;
+}
+
+table tr td .layerRunePage p span {
+    color: #99CCFF
+}
+
+table tr td:hover .layerRunePage {
+    height: 100px;
+    top: 60%;
+    padding-top: 10%;
+    overflow: visible;
+    text-align: center;
+    white-space: normal;
+    transition: ease .5s;
+}
+
+/*  Tirvia  */
+.trivia .animationGif {
+    display: block;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.trivia ul {
+    list-style-type: square;
+    margin-left: 4%;
+    font-size: 0.9em;
+}
+
+.bg {
+    background-color: rgb(5, 12, 19);
+}
+
+.trivia a {
+    color: #66CCFF
+}
+
+.trivia ul li ul li ul {
+    top: 0;
+    left: 0;
+    display: block;
+    position: static;
+}
+
+.trivia ul li ul li:hover ul {
+    animation: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 4%;
+    line-height: 210%;
+    font-size: 0.9em;
+
+}
+
+.trivia table.firstTable {
+    width: 99%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.topBorder {
+    border-top: 1px solid #555555;
+}
+
+.trivia .secondTable {
+    width: 102%;
+    margin: 2% 0 2% -2%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.trivia .secondTable td {
+    padding: 1%
+}
+
+.trivia .secondTable tr:first-child,
+.trivia .secondTable tr:nth-child(2) {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.trivia .secondTable tr:not(:first-child):not(:nth-child(2)) td {
+    border-top: 1px solid #555555;
+    font-size: 0.8em;
+    height: 50px;
+}
+
+.trivia .secondTable tr:not(:first-child):not(:nth-child(2)) td:first-child {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.trivia .secondTable tr td:first-child {
+    width: 15%;
+}
+
+.trivia .secondTable tr td:not(:first-child) {
+    width: 15%;
+}
+
+.btnColSho {
+    color: #66CCFF
+}
+
+#subTable {
+    border: 1px solid #DDDDDD;
+    background-color: rgb(5, 12, 19);
+    text-align: center;
+    padding: 1% 0;
+    display: none;
+    margin: 2% 0;
+}
+
+/*  media   */
+.media .headChoice ul {
+    display: flex;
+    justify-content: center;
+    background-color: #023
+}
+
+.media .headChoice ul li {
+    padding: 2%;
+    font-weight: bold;
+}
+
+.media .headChoice ul li:hover {
+    color: white
+}
+
+.media .choice {
+    color: #FF6633;
+}
+
+#music .choice {
+    color: black;
+    background-color: #336699;
+}
+
+#sub-content-gallery table {
+    width: 99%;
+    margin: 2% auto;
+}
+
+#sub-content-gallery table tr td img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #99FF99
+}
+
+#sub-content-gallery table tr td {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+#sub-content-gallery table:nth-child(2) {
+    margin-top: -1%;
+}
+
+#sub-content-gallery table tr td:hover p {
+    color: #F33
+}
+
+#sub-content-videos,
+#sub-content-gallery {
+    display: none;
+}
+
+.media iframe {
+    display: block;
+    margin: 1% auto;
+    border: 1px solid #66CCFF;
+}
+
+.media .nameVde {
+    margin-left: 7%;
+    padding-bottom: 1%;
+    font-size: 0.9em;
+    color: #99CCFF;
+    font-weight: bold;
+}
+#sub-content-videos table{
+    width: 100%;
+     margin: 2% auto
+}
+#sub-content-videos table tr td{
+    width: 33%;
+}
+#sub-content-videos table tr td{
+    height: 200px;
+}
+#sub-content-videos table tr td p{
+    font-size: 0.9em;
+    text-align: center;
+    height: 50px;
+    color:#99FFCC
+}
+#sub-content-videos table tr td:hover iframe{
+    border: 1px solid red;
+}
+#sub-content-videos table tr td:hover p{
+    color:red
+}
+#sub-content-gallery input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    box-shadow: #00CCFF 2px 2px, #00CCFF -2px -2px, #00CCFF -2px 2px, #00CCFF 2px -2px;
+    background-image: linear-gradient(#33CCFF, #99CCFF);
+    padding: 1%;
+    border-radius: 20%;
+    font-size: 1em;
+    color:black
+}
+
+#sub-content-gallery input:hover {
+    transform: scale(1.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out .2s;
+}
+/*  Patch History   */
+.patchHistory{
+    margin-top: 5%;
+}
+.patchHistory img {
+    width: 4%;
+    vertical-align: bottom;
+}
+.patchHistory .verList{
+    width: 100%;
+    border: 1px solid #66CCFF;
+    height: 500px;
+    overflow-y: scroll;
+    margin:2% auto;
+    padding-left: 2%;
+}
+.patchHistory .verList .version p{
+    color:#66CCFF;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1% auto
+}
+.patchHistory .verList .version .emPress{
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#99FFCC
+}
+.patchHistory .verList .version a{
+    color:#FF9966
+}
+.patchHistory .verList .version a:hover{
+    color:#FFFF99
+}
+.patchHistory ul.subVerList{
+    list-style-type: square;
+    margin-left: 5%;
+}
+/*  Reference */
+.reference ol{
+    margin: 2% 0; 
+    font-size: 0.9em;
+    margin-left: 4%;
+}
+.reference ol a{
+    color:#00CCFF
+}
+/*  Categories  */
+ul.categr {
+    clear: both;
+    display: flex;
+    width: 95%;
+    border-radius: 5%;
+    margin: 0 auto;
+    border: 1px solid #CC9966;
+    padding: 1% 2%;
+    margin-bottom: 2%;
+}
+
+ul.categr li {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+ul.categr li a {
+    color: #CC0066;
+    font-size: 0.9em;
+}
+
+ul.categr li a:hover {
+    text-decoration: underline;
+}
+
+/*  Language   */
+.section-content p.categories {
+    margin: 0 auto;
+    margin-top: 7%;
+    border: solid #444444 1px;
+    border-radius: 1%;
+    width: 90%;
+    padding: 1%;
+
+}
+
+.section-content p.categories a {
+    color: #66FFFF;
+    font-size: 0.8em;
+}
+
+.section-content p.categories a:hover {
+    text-decoration: underline;
+}
+
+.section-content p.categories span {
+    padding-left: 1%;
+}
+
+/*  Language    */
+.lang {
+    display: flex;
+    font-size: 0.9em;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.lang ul {
+    width: 90%;
+    margin-left: 2%;
+    display: flex;
+
+}
+
+.lang ul li {
+    margin-left: 2%;
+}
+
+.lang ul li:not(:last-child) {
+    border-right: solid 1px #CCFFCC;
+}
+
+.lang ul li a {
+    color: #6699FF;
+    padding-right: 5px;
+    font-size: 0.8em;
+}
+
+.lang ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/*  community   */
+p.community {
+    margin-top: 3%;
+    margin-left: 24%;
+    font-size: 0.7em;
+    color: #CCFFFF;
+    margin-bottom: 2%;
+}
+
+p.community a {
+    color: #FF9999
+}

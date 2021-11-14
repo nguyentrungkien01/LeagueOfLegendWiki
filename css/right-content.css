@@ -1,0 +1,458 @@
+.content-right {
+    width: 28%;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+}
+
+.content-right .title {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(9, 41, 73);
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2% 0;
+    text-transform: capitalize;
+}
+
+/*  image   */
+.content-right .image {
+    width: 100%;
+}
+
+
+.content-right .image img {
+    width: 98%;
+
+}
+
+/*  Join community      */
+.content-right .join-community {
+    margin-top: 20%;
+}
+
+.content-right .join-community p {
+    font-size: 1.2em;
+    padding-bottom: 5%;
+    padding-right: 1%;
+}
+
+.content-right .join-community p hr {
+    width: 90%;
+    margin: 0 auto;
+    color: #222222;
+}
+
+.content-right .join-community ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-right .join-community ul li {
+    margin-left: 10%;
+
+}
+
+.content-right .join-community ul li a {
+    color: #6699CC;
+}
+
+.content-right .join-community ul li a:hover {
+    text-decoration: underline;
+}
+
+/*     Play more    */
+.play-more {
+    margin-top: 20%;
+}
+
+.play-more .inBox img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: solid #66FFFF 1px;
+    margin-bottom: 5%;
+}
+
+.play-more .inBox img:hover {
+
+    transform: scale(1.2);
+    transition: step-start;
+    opacity: 0.8;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+/*  news    */
+.inBox .box .body {
+    width: 90%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.inBox .box .body .name {
+    animation-name: opaBg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.inBox .box .head {
+    padding-top: 10%;
+    text-align: center;
+    color: #CCCCCC;
+}
+
+.inBox .box .body .frame img {
+    width: 100%;
+}
+
+.inBox .box:first-child .body {
+    background-image: url(images/news/Yone.png);
+
+}
+
+.inBox .box:last-child .body {
+    background-image: url(images/news/Volibear.png);
+}
+
+@keyframes opaBg {
+    0% {
+        opacity: 1;
+        transform: scale(1.1);
+        color: #FFFF99;
+    }
+
+    50% {
+        opacity: 0.7;
+        transform: scale(1);
+        color: #FFCCCC;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+        color: #CCFFFF;
+    }
+}
+
+.inBox .box .foot {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.inBox .box .foot img {
+    width: 90px;
+}
+
+.inBox .box .foot img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transform: skew(5deg);
+    transition: ease-in-out .1s;
+}
+
+.inBox .box .foot .part:last-child {
+    margin-top: 13%;
+    padding-left: 5%;
+    font-size: 0.8 em;
+
+}
+
+.inBox .box .foot .part:last-child a {
+    color: #CC99CC;
+
+}
+
+.inBox .box .foot .part:last-child a:hover {
+    color: #CCFF99;
+    text-decoration: underline;
+}
+
+.inBox .box .body .name {
+    position: relative;
+    margin-top: -25%;
+    left: 2%;
+    text-align: center;
+    background: none;
+    padding-bottom: 10%;
+}
+
+.inBox .box .body .name span {
+    font-size: 0.8em;
+    padding-bottom: 5%;
+}
+
+/*  twiter feed */
+.inBox .headBox {
+    padding: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    justify-content: center;
+    background-color: rgb(6, 30, 54);
+    font-weight: bold;
+}
+
+.inBox .headBox li {
+    line-height: 1.8em;
+}
+
+.inBox .headBox li:nth-child(4),
+.inBox .headBox li:nth-child(6) {
+    margin-left: 8%;
+}
+
+.timeline {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 550px;
+    overflow: auto;
+    margin-bottom: 10%;
+}
+
+.timeline#twitter-legendsOfRuneterra,
+.timeline#twitter-teamFighTatics,
+.timeline#twitter-wildRift,
+.timeline#twitter-riotGames,
+.timeline#twitter-esports {
+    display: none;
+}
+
+span#option-leagueOfLegends {
+    background-color: #CC3300;
+    color: white;
+
+}
+
+/*    Trending dicussion    */
+.trending-discussion .top {
+    display: flex;
+    padding: 5% 0;
+}
+
+.trending-discussion .top .head {
+    font-size: 1.1em;
+
+}
+
+.trending-discussion .top .view {
+    font-size: 0.8em;
+    padding-top: 1%;
+    padding-left: 20%;
+
+}
+
+.trending-discussion .top .view a {
+    color: #3366CC;
+    animation-name: colorView;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorView {
+    0% {
+        color: blue;
+    }
+
+    25% {
+        color: red;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.trending-discussion .top .view a:hover {
+    text-decoration: underline;
+    color: #CCFFCC;
+}
+
+.trending-discussion {
+    margin-top: 5%;
+}
+
+.trending-discussion .inBox {
+    margin-top: 7%;
+    width: 95%;
+    border-radius: 10%;
+}
+
+.trending-discussion .inBox .infor {
+    display: flex;
+}
+
+.trending-discussion .inBox .address {
+    display: flex;
+}
+
+.trending-discussion .inBox .infor .avatar {
+    color: #666666;
+    font-size: 3em;
+    margin: 3% 3%;
+}
+
+.trending-discussion .inBox .infor .name {
+    margin: 8% 0;
+}
+
+.trending-discussion .inBox .infor .name a {
+    color: #99FFCC;
+}
+
+.trending-discussion .inBox .infor .name a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.trending-discussion .inBox .infor .time {
+    font-size: 0.8em;
+    margin: 9% 5%;
+    color: #666666;
+}
+
+.trending-discussion .inBox:nth-child(3) .infor .time i,
+.trending-discussion .inBox:nth-child(6) .infor .time i {
+    color: red;
+}
+
+.trending-discussion .inBox .infor .time i {
+    color: #33FF33;
+}
+
+.trending-discussion .inBox .content .comment {
+    color: white;
+    font-size: 1em;
+    text-indent: 5%;
+}
+
+.trending-discussion .inBox .content .address {
+    color: #666666;
+    margin: 2% 0;
+    font-size: 0.8em;
+    margin-left: 5%;
+}
+
+.trending-discussion .inBox .content .address p:last-child {
+    margin-left: 50%;
+}
+
+.trending-discussion .inBox .content .address p:last-child i.fa-commenting {
+    padding-left: 0.5em;
+}
+
+.trending-discussion .inBox .content hr {
+    width: 90%;
+    margin: 0 auto;
+    color: #555555;
+}
+
+.trending-discussion .inBox .foot i {
+    padding: 5% 0 5% 5%;
+}
+
+i.fa-smile-o {
+    color: yellow;
+    font-size: 1.1em;
+}
+
+i.fa-frown-o {
+    color: red;
+    font-size: 1.1em;
+}
+
+/*      poro    */
+.content-right .poro {
+    margin-top: 15%;
+}
+
+/*   Animation of League of legends */
+.ani-right {
+    width: 90%;
+    margin-top: 30%;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 1000;
+    animation-name: aniRightContent;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes aniRightContent {
+    0%{
+        padding-top: 5%;
+        color: #CCFFFF;
+    }
+    5% {
+        padding-top: 10%;
+        color: #CCFFFF;
+    }
+    10% {
+        padding-top: 20%;
+        color: #66FFFF;
+    }
+
+    20% {
+        padding-top: 30%;
+        color: #FFCCFF;
+    }
+
+    30% {
+        padding-top: 40%;
+        color: #99CCFF;
+    }
+
+    40% {
+        padding-top: 50%;
+        color: #66FF99;
+    }
+
+    50% {
+        padding-top: 60%;
+        color: #33CC66;
+    }
+
+    60% {
+        padding-top: 70%;
+        color: #99FF33;
+    }
+
+    70% {
+        padding-top: 80%;
+        color: #CC99FF;
+    }
+
+    80% {
+        padding-top: 90%;
+        color: #6666FF;
+    }
+
+    90% {
+        padding-top: 100%;
+        color: #3333FF;
+    }
+
+    100% {
+        padding-top: 115%;
+        color: #99FFFF;
+    }
+}

@@ -1,0 +1,117 @@
+.free-Champion-Rotation {
+    width: 100%;
+}
+
+.free-Champion-Rotation .title {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(9, 41, 73);
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2% 0;
+    text-transform: capitalize;
+}
+
+.free-Champion-Rotation .headChoice {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(6, 30, 54);
+    padding: 1%;
+}
+
+.headChoice div {
+    padding-left: 4%;
+}
+
+.headChoice div:hover span {
+    color: white;
+}
+
+#classic span {
+    background-color: #699FF6;
+    color: white;
+
+}
+
+/*  content header  */
+.free-Champion-Rotation .content-header {
+    color: whitesmoke;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.8em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+
+/*  image    */
+.free-Champion-Rotation table {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.free-Champion-Rotation table .caption {
+    font-size: 0.8em;
+    text-align: center;
+    color: #3399FF;
+}
+
+.free-Champion-Rotation table .image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.free-Champion-Rotation table .image img {
+    padding-left: 13%;
+}
+
+.sub-cnt:nth-child(2) table tr:last-child td {
+    overflow: hidden;
+    ;
+}
+
+.sub-cnt:nth-child(2) table tr:last-child td .special {
+    float: left;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.sub-cnt:nth-child(2) table tr:last-child td .special:first-child {
+    margin-left: 35%;
+}
+
+.sub-cnt:nth-child(2) table tr:last-child td .special:last-child {
+    margin-left: 5%;
+}
+.sub-cnt:nth-child(2) table tr:last-child td .special:last-child .caption{
+    padding-left: 10%;
+}
+
+.free-Champion-Rotation table .image img {
+    width: 80px;
+    height: 80px;
+}
+
+.free-Champion-Rotation table .image img:hover {
+    transform: scale(1.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+}
+
+/* click    */
+.sub-cnt:nth-child(2),
+.sub-cnt:nth-child(3) {
+    display: none;
+}
+span#classic {
+    background-color: #699FF6;
+    color: white;
+
+}

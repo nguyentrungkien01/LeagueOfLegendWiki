@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img:hover{
+    cursor: grab;
+}
+p:hover{
+    cursor: text;
+}
+a:hover{
+    cursor:pointer;
+}
+sup:hover{
+    cursor: help;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*==========================================*/
+
+/*      ------- Navigation -------*/
+nav {
+    background-color: rgb(0, 42, 50);
+    color: rgb(0, 214, 214);
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+/*  Logo    */
+nav .nav-logo {
+    width: 10%;
+    height: 100%;
+}
+
+nav .nav-logo img {
+    width: 100%;
+}
+
+/*  Name    */
+nav .nav-name {
+    width: 15%;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.5% 1%;
+    text-shadow: 2px 2px rgb(0, 214, 214), 1px 1px greenyellow, 2px 5px white;
+}
+
+nav .nav-name:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
+}
+
+#nav-name-small {
+    font-size: 0.4em;
+}
+
+/*  Button  */
+.nav-button {
+    display: flex;
+    width: 45%;
+}
+
+.nav-button li {
+    width: 20%;
+    line-height: 250%;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.nav-button li:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.nav-button a {
+    color: rgb(0, 214, 214);
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+}
+
+/*  Search  */
+.nav-searchBox {
+    width: 30%;
+    overflow: hidden;
+}
+
+.nav-searchBox .nav-searchBox-icon i {
+    font-size: 1.5em;
+    width: 10%;
+    float: left;
+    margin-top: 8%;
+    font-weight: bold;
+}
+
+.nav-searchBox .nav-searchBox-search input[type=text] {
+    float: left;
+    width: 85%;
+    line-height: 250%;
+    margin-top: 5%;
+    padding: 0;
+    font-size: 1.1em;
+    background-color: rgb(0, 42, 50);
+    border: none;
+    border-bottom: rgb(0, 214, 214) solid 2px;
+}
+
+.nav-searchBox .nav-searchBox-search input[type=text]:focus {
+    border: none;
+    background-color: rgb(0, 42, 50);
+    border-bottom: rgb(0, 214, 214) solid 2px;
+    color: white;
+}
+
+.nav-searchBox .nav-searchBox-search input[type=text]::placeholder {
+    color: white;
+}
+
+/*==========================================*/
+
+
+
+/*      ------- Header --------*/
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 42, 50), #339999);
+    height: 20rem;
+    animation-name: slideD;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes slideD {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    height: 100%;
+    margin-top: 0.05%;
+    background-image: url("images/bgBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*     Arrow     */
+.banner #arrow-left,
+.banner #arrow-right {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 45%;
+}
+
+.banner #arrow-left {
+    left: -3%;
+}
+
+.banner #arrow-right {
+    right: -3%;
+}
+
+.banner #arrow-left:hover,
+.banner #arrow-right:hover {
+    font-size: 4em;
+    top: 40%;
+}
+
+.banner #arrow-left:hover {
+    left: -4%;
+}
+
+.banner #arrow-right:hover {
+    right: -4%;
+}
+
+/*     Banner picture      */
+.banner .banner-img {
+    margin: 0 0;
+    width: 100%;
+    padding: 0.1% 0;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner-img {
+    position: relative;
+}
+
+.banner .banner-img:not(#banner-LeagueOfLegend) {
+    display: none;
+}
+
+.banner .banner-img#banner-LeagueOfLegend {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*==========================================*/
+
+
+/*      ------- Section -------*/
+section {
+    height: 100%;
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(0, 42, 50), black, rgb(0, 42, 50));
+    animation-name: slideU;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes slideU {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+section hr:first-child {
+    width: 90%;
+    margin: 0 auto;
+    animation-name: hrColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hrColor {
+    0% {
+        border: #99CCFF solid 2px;
+    }
+
+    25% {
+        border: #FFFFCC solid 2px;
+    }
+
+    50% {
+        border: #CCFF99 solid 2px;
+    }
+
+    75% {
+        border: #CC99FF solid 2px;
+    }
+
+    100% {
+        border: #CCFFFF solid 2px;
+    }
+}
+
+.section-bg {
+    width: 95%;
+    height: 100%;
+    background-image: url(images/twoSides/left.png), url(images/twoSides/right.png), url(images/twoSides/ahri-lol-arcade-girl-art.jpg), url(images/twoSides/vayneL.png), url(images/twoSides/cassiopiaR.png), url(images/twoSides/threshL.png), url(images/twoSides/revenR.png), url(images/twoSides/thresh.png), url(images/twoSides/ahri.png);
+    background-repeat: no-repeat;
+    background-size: 49% 600px, 49% 600px, 100% 1000px, 20% 500px, 20% 500px, 25% 500px, 25% 500px, 20% 500px, 20% 500px;
+    background-position: top left, top right, 0 650px, -1% 3200px, 100% 3200px, -5% 6400px, 103% 6400px, left bottom, 98% bottom;
+    margin: 0 auto;
+    padding-top: 20%;
+    padding-bottom: 2%;
+}
+
+.section-content {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(15, 27, 45);
+    color: white;
+    border: solid white 2px;
+ 
+}
+
+/*==========================================*/
+
+/*      -------- swipe Up -------*/
+section .btn-top {
+    background-image: url(images/gif/swipeUp.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+    height: 120px;
+    position: fixed;
+    right: -1%;
+    bottom: 6%;
+    width: 150px;
+    z-index: 100;
+}
+
+section .btn-top:hover {
+    transform: scale(1.2);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    right: 0%;
+}
+
+section .btn-top p {
+    font-size: 1.2em;
+    margin-top: 45%;
+    margin-left: 35%;
+    font-weight: bold;
+    display: none;
+    z-index: 101;
+    color: red;
+    text-shadow: red 1.5px 1px;
+}
+
+section .btn-top:hover p {
+    display: block;
+
+}
+
+/*==========================================*/

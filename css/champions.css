@@ -1,0 +1,756 @@
+* {
+    color: #DDDDDD;
+}
+
+nav .nav-name {
+    text-shadow: 1px 1px greenyellow,2px 2px rgb(0, 214, 214), 1px 1px lavender;
+}
+
+.content-left {
+    line-height: 150%;
+}
+
+sup {
+    color: greenyellow
+}
+
+.sec-con-subHeader-left>p:first-child {
+    font-size: 0.4em;
+    line-height: 300%;
+    padding-left: 1%;
+    text-shadow: none;
+    font-weight: lighter;
+    text-transform: none;
+    width: 60%;
+}
+
+.sec-con-subHeader-left>p:first-child a {
+    color: rgb(0, 214, 214);
+}
+
+.sec-con-subHeader-left>p:first-child a:hover {
+    color: #FFFFCC;
+    text-decoration: underline;
+}
+.sec-con-subHeader-left>p:last-child{
+    text-transform: capitalize;
+}
+.sec-con-subHeader-right {
+    margin-top: -2%;
+    margin-left: 73%;
+}
+
+.language {
+    margin-left: 26%;
+}
+
+.interactBox {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.cmt {
+    float: left;
+    width: 50%;
+    width: 25%;
+    padding: 1%;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border: 1px solid #888888;
+    border-radius: 8%;
+    letter-spacing: 0.1%;
+}
+
+.share {
+    float: left;
+    width: 49%;
+    margin-left: 1%;
+    font-size: 1.1em;
+}
+
+.sec-con-subHeader-right .cmt:hover {
+    background-color: lightgray;
+    color: black
+}
+
+.title-content-left {
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 200%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.title-content-left a {
+    color: #00CCFF
+}
+
+.title-content-left a:hover {
+    color: #FFFF99;
+    text-decoration: underline;
+}
+
+#subBox .logo {
+    width: 40%;
+}
+
+.sub-content-box {
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.subContent_L {
+    float: left;
+    width: 50%;
+    font-size: 0.9em;
+    line-height: 150%;
+    padding-left: 1%;
+    text-align: left;
+}
+
+/*  sub content left    */
+.subContent_L a {
+    color: #9999FF
+}
+
+.subContent_L p:first-child {
+    text-indent: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
+.subContent_L p:nth-child(2) {
+    display: inline-block;
+    border: 1px #FFCC99 solid;
+    padding: 2%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+
+.sub-content-box .subContent_L p:nth-child(3) {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+
+.subContent_L hr {
+    width: 95%;
+    border: 0.2px #FFCC99 solid;
+}
+
+#subDiscript {
+    margin-left: 1.8em;
+    font-size: 0.9em;
+    padding: 2%;
+    font-style: italic;
+}
+
+#subDiscript a {
+    color: rgb(0, 214, 214);
+}
+
+.subContent_L p:last-child {
+    text-indent: 5%;
+    padding-bottom: 5%;
+}
+
+.subContent_L a:hover {
+    color: #FF33FF;
+    text-decoration: underline;
+}
+
+/*  sub content right   */
+.subContent_R {
+    float: right;
+    width: 45%;
+}
+
+figcaption {
+    font-size: 0.7em;
+    text-align: left;
+    padding: 3%;
+    border: 1px solid #FFCC99;
+    border-top: none;
+}
+
+.sub-content-R figure {
+    border: 1px solid #FFCC99;
+}
+
+figcaption a {
+    color: #66FFCC
+}
+
+figcaption a:hover {
+    color: #CC9900;
+    text-decoration: underline;
+}
+
+.content-left p:nth-child(3) {
+    font-size: 0.9em;
+    text-indent: 2%;
+}
+
+.content-left p:nth-child(3) a:first-child {
+    color: red;
+}
+
+.content-left p:nth-child(3) a:last-child {
+    color: #6699FF
+}
+
+.content-left p:nth-child(3) a:hover {
+    text-decoration: underline;
+}
+
+
+
+.content-left figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.content-left figure img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.content-left figure figcaption {
+    border: none;
+    padding: 1% 0 1% 2%;
+}
+
+.content-left img:nth-child(5) {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.subTitle {
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.content-left hr {
+    width: 95%;
+    border: 0.2px #FFCC99 solid;
+    opacity: 0.2;
+}
+
+.subDiscript {
+    margin-left: 1.8em;
+    font-size: 0.8em;
+    padding: 2%;
+    font-style: italic;
+}
+
+.subDiscript a {
+    color: rgb(0, 214, 214);
+}
+
+.subDiscript a:hover {
+    text-decoration: underline;
+    color: #FFCCCC;
+}
+
+.subDiscript+p {
+    text-indent: 2%;
+    font-size: 0.9em;
+    padding-left: 1%;
+}
+
+.subDiscript+p a {
+    color: #99CCCC;
+}
+
+.subDiscript+p a:hover {
+    text-decoration: underline;
+    color: #CCFF99;
+}
+
+h4 {
+    padding-top: 5%;
+    padding-left: 1%;
+}
+
+.quoteBox {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px #CC6633 solid;
+    border-left: 10px #33FF33 solid;
+    display: flex;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.quoteBox .r_box q {
+    font-style: italic;
+    color: #FFCC99;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.quoteBox .r_box ul {
+    list-style-type: disc;
+    padding-left: 7%;
+    font-size: 0.9em;
+}
+
+img.separator {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+p.pr {
+    margin-top: 5%;
+    text-indent: 2%;
+    padding-left: 1%;
+    font-size: 0.9em;
+}
+
+p.pr a {
+    color: #99FFCC
+}
+
+p.pr a:hover {
+    text-decoration: underline;
+    color: #FF0033
+}
+
+/*  trivial */
+.choiceButton {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(9, 41, 73);
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.choiceButton .choice {
+    color: #ff6633;
+}
+
+.choiceButton #development {
+    padding-left: 2%;
+}
+
+#general .choice {
+    background-color: #336699;
+    color: black;
+}
+
+.choiceButton .choice:hover {
+    color: white;
+}
+
+.sub-content-general {
+    padding-left: 1%
+}
+
+.sub-content-general ul {
+    list-style-type: disc;
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+.sub-content-general ul a {
+    color: #3399CC;
+}
+
+.sub-content-general ul a:hover {
+    color: #FFCCCC;
+    text-decoration: underline;
+}
+
+.sub-content-development {
+    margin-top: -5%;
+    display: none;
+}
+
+.sub-content-development p:first-child {
+    font-size: 1em;
+    padding-left: 1%;
+}
+
+.sub-content-dev {
+    overflow: hidden;
+
+}
+
+.sub-content-dev .leftSub-content {
+    float: left;
+    width: 45%;
+    padding-bottom: 2%;
+}
+
+.sub-content-dev p {
+    text-indent: 5%;
+    font-size: 0.9em;
+    padding-left: 1%;
+}
+
+.sub-content-dev p a {
+    color: #33FFFF
+}
+
+.sub-content-dev p a:hover {
+    text-decoration: underline;
+}
+
+.sub-video {
+    float: right;
+    width: 45%;
+    border: solid 1px #CC9966;
+}
+
+.sub-video iframe {
+    display: block;
+    width: 100%;
+}
+
+.sub-video p {
+    padding: 2%;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#leS {
+    width: 20px;
+    padding: 0;
+    display: inline-block;
+}
+
+.sub-content-dev .byWho a {
+    color: red;
+}
+
+.sub-content-dev .championSqr a:last-child {
+    color: #33FFFF
+}
+
+img.ChampionBio {
+    display: block;
+    margin: 1% auto;
+}
+
+.prg {
+    padding-top: 3%;
+    padding-left: 1%;
+    text-indent: 2%;
+    font-size: 0.9em;
+}
+
+.prg a {
+    color: #33FFFF
+}
+
+/*  media   */
+.main,
+.sub {
+    padding-left: 1%;
+    font-size: 0.9em;
+}
+
+.sub {
+    margin-top: 3%;
+}
+
+#music .choice {
+    background-color: #336699;
+    color: black;
+}
+
+.main p a {
+    color: #33CCCC
+}
+
+.main p a:hover {
+    text-decoration: underline;
+    color: #CCCC00
+}
+
+.main iframe {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 400px;
+}
+
+.main p:last-child {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #FFCCFF;
+}
+
+.sub table {
+    width: 95%;
+    display: block;
+    margin: 0 auto
+}
+
+.sub table tr td {
+    margin: 0;
+    padding: 0;
+    height: 160px;
+}
+
+.sub table tr td iframe {
+    width: 135px;
+    height: 80px;
+    border: solid 1px #33FFFF;
+}
+
+.sub table tr td:hover p {
+    color: #00FFFF;
+}
+
+.sub table tr td p {
+    font-size: 0.8em;
+    height: 20px;
+    text-align: center;
+}
+
+.sub-content-gallery .main table {
+    width: 97%;
+    display: block;
+    margin: 0 auto
+}
+
+.sub-content-gallery .main table td {
+    height: 250px;
+
+}
+
+.sub-content-gallery .main table img {
+    width: 180px;
+    height: 200px;
+    border: solid 1px #33FFFF;
+}
+
+.sub-content-gallery .main table .image {
+    position: relative;
+}
+
+.sub-content-gallery .main table .subLayer {
+    position: absolute;
+}
+
+.sub-content-gallery .main table .subLayer {
+    color: #FFFFFF;
+    font-size: 0.9em;
+    padding-top: 5%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.8130602582830007) 63%, rgba(2, 0, 36, 0.8130602582830007) 75%, rgba(14, 143, 170, 0.0959734235491071) 100%, rgba(0, 0, 0, 0) 100%);
+}
+
+.sub-content-gallery .main table .subLayer a {
+    color: #FF3399;
+}
+
+.sub-content-gallery .main table .subLayer a:hover {
+    text-decoration: underline #33FF33;
+    color: aquamarine;
+}
+
+.sub-content-gallery .main table td:hover .subLayer {
+    height: 200px;
+    top: 0%;
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+    padding-top: 50%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.8130602582830007) 64%, rgba(170, 209, 217, 0.0959734235491071) 94%, rgba(0, 0, 0, 0) 100%);
+    transition: ease-in-out .5s;
+}
+
+#music {
+    background-color: #336699;
+    color: black;
+}
+
+#sub-content-videos,
+#sub-content-gallery {
+    display: none;
+}
+
+.sub-content-gallery .main input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    box-shadow: #00CCFF 2px 2px, #00CCFF -2px -2px, #00CCFF -2px 2px, #00CCFF 2px -2px;
+    background-image: linear-gradient(#33CCFF, #99CCFF);
+    padding: 1%;
+    border-radius: 20%;
+    font-size: 1em;
+}
+
+.sub-content-gallery .main input:hover {
+    transform: scale(1.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out .2s;
+}
+
+#subTab-gallery {
+    display: none;
+}
+
+/*  reference   */
+.refer {
+    padding-top: 5%;
+}
+
+.ref-list {
+    display: flex;
+    margin-left: 5%;
+    list-style-position: inside;
+}
+
+.ref-list a {
+    color: #0099FF;
+    font-size: 0.8em;
+
+}
+
+.ref-list a:hover {
+    color: #99FFCC;
+    text-decoration: underline;
+}
+
+.ref-list li {
+    padding: 2%;
+}
+
+/*  champions   */
+.upComing-champion,
+.cancelled-champion {
+    margin: 2% 5%;
+    font-size: 0.9em;
+}
+
+.upComing-champion a:hover,
+.cancelled-champion a:hover {
+    text-decoration: underline;
+    color: #99CCCC
+}
+
+h4.cancelledTitle {
+    margin-top: -5%;
+}
+
+.upComing-champion a {
+    color: #00FFFF
+}
+
+.cancelled-champion a {
+    color: #FF0066;
+}
+
+.cancelled-champion {
+    width: 90%;
+    display: block;
+    margin: 0 auto
+}
+
+.cancelled-champion tr td {
+    width: 200px;
+}
+
+/*  discussion about champion   */
+.box-discussion {
+    padding-left: 1%;
+}
+
+.box-discussion .title-discuss i {
+    font-size: 1.2em;
+    padding-top: 3%;
+    font-weight: bold;
+    display: block;
+    padding-left: 3%;
+}
+
+.box-discussion .title-discuss i a {
+
+    padding-left: 1%;
+    color: #0099FF;
+    text-shadow: #00CCFF 0.5px 0.5px;
+}
+
+.box-discussion .amoDiscuss {
+    font-size: 0.8em;
+    padding-left: 8%;
+    padding-top: 1%;
+    color: gray
+}
+
+.box-discussion .content-discuss .user {
+    display: flex;
+    margin: 3% 0;
+}
+
+.box-discussion .content-discuss .user .userAvt {
+    font-size: 2.2em;
+    padding-top: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+
+}
+
+.user .ct_user {
+    width: 90%;
+}
+
+.user .ct_user .name a {
+    font-size: 0.9em;
+    color: #66FFCC
+}
+
+.user .ct_user .name a:hover {
+    text-decoration: underline;
+    color: #CCCC99
+}
+
+.user .ct_user .content {
+    font-size: 0.8em;
+}
+
+.user .ct_user .content span {
+    color: gray;
+    padding-left: 3%;
+}
+
+.seeMore-Discuss a {
+    float: right;
+    padding: 1%;
+    font-size: 0.9em;
+    color: #0099FF
+}
+
+.seeMore-Discuss a:hover {
+    text-decoration: underline;
+    color: whitesmoke
+}
